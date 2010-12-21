@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    gruff (0.3.6)
+    haml (3.0.18)
+    rack (1.2.1)
+    rmagick (2.13.1)
+    sinatra (1.0)
+      rack (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gruff
+  haml (= 3.0.18)
+  rmagick (= 2.13.1)
+  sinatra (= 1.0)

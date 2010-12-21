@@ -1,0 +1,8 @@
+%center
+  %form{ :action => '/', :method => :post }
+    = error_messages
+    %label{ :for => 'probability' } Вероятность
+    %input#probability{ :type => 'text', :name => 'probability', :value => params['probability'] }
+    %input{ :type => 'submit', :value => 'Рассчитать' }
+
+  = chart
